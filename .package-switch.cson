@@ -1,0 +1,42 @@
+[
+  {
+    name: "atom-beautify"
+    action: "added"
+  }
+  {
+    name: "color-picker"
+    action: "added"
+  }
+  {
+    name: "es6-javascript"
+    action: "added"
+  }
+  {
+    name: "react"
+    action: "added"
+  }
+  {
+    name: "autocomplete-atom-api"
+    action: "added"
+  }
+  {
+    name: "autocomplete-css"
+    action: "added"
+  }
+  {
+    name: "autocomplete-html"
+    action: "added"
+  }
+  {
+    name: "autocomplete-plus"
+    action: "added"
+  }
+  {
+    name: "autocomplete-snippets"
+    action: "added"
+  }
+  {
+    name: "bracket-matcher"
+    action: "added"
+  }
+]
