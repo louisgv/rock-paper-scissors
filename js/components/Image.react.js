@@ -2,19 +2,15 @@
 
 import React from 'react';
 
-let mainImg = require('../images/lab.png');
+class AppComponent extends React.Component {
+  constructor() {
 
-let User = require('./User');
+  }
+}
 
-// let HouseListing = require('./HouseListingComponent');
-
-// let UserGistComponent = require('./UserGistComponent');
-
-let Todo = require('./TodoComponent')
-
+// TODO: MAKE SHIT HAPPEN
 class AppComponent extends React.Component {
   render() {
-
     var user = {
       name: 'Louis',
       city: 'Seattle'
@@ -23,10 +19,6 @@ class AppComponent extends React.Component {
     return (
       <div className='index'>
         <img src={mainImg} alt='Louis'/>
-
-        <User user={user}/>
-
-        <Todo items={[]}/>
       </div>
     );
   }

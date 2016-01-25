@@ -39,4 +39,20 @@
     name: "bracket-matcher"
     action: "added"
   }
+  {
+    name: "react-es6-snippets"
+    action: "added"
+  }
+  {
+    name: "snippets"
+    action: "added"
+  }
+  {
+    name: "spell-check"
+    action: "added"
+  }
+  {
+    name: "tasks"
+    action: "added"
+  }
 ]
