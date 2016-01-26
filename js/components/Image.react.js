@@ -1,23 +1,25 @@
-'use strict';
+"use strict";
 
-import React from 'react';
+import React from "react";
 
 // TODO: MAKE SHIT HAPPEN
-class AppComponent extends React.Component {
+class ImageContainer extends React.Component {
+
   render() {
-    var user = {
-      name: 'Louis',
-      city: 'Seattle'
+
+    let user = {
+      name: "Louis",
+      city: "Seattle"
     };
 
     return (
-      <div className='index'>
-        <img src={mainImg} alt='Louis'/>
+      <div className="index">
+        {user.name}
       </div>
     );
   }
 }
 
-AppComponent.defaultProps = {};
+ImageContainer.defaultProps = {};
 
-export default AppComponent;
+export default ImageContainer;
