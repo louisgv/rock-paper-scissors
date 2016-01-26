@@ -2,7 +2,7 @@ var React = require('react');
 var CounterStore = require('../stores/CounterStore');
 var FluxCounter = require('./FluxCounter.react');
 
-getState = function() {
+let getState = function() {
   return {
     count: CounterStore.getCount()
   }
