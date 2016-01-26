@@ -1,8 +1,10 @@
-var React = require('react');
-var CounterStore = require('../stores/CounterStore');
-var FluxCounter = require('./FluxCounter.react');
+import React from 'react';
 
-getState = function() {
+import CounterStore from '../stores/CounterStore';
+
+import FluxCounter from './FluxCounter.react';
+
+let getState = function() {
   return {
     count: CounterStore.getCount()
   }

@@ -1,7 +1,8 @@
 var React = require('react');
-var FluxCounterApp = require('./components/FluxCounterApp.react');
+import FluxCounterApp from './components/FluxCounterApp.react';
+// var Image = require('./components/Image.react');
 
-React.render(
-  <FluxCounterApp />,
-  document.getElementById('flux-counter')
-);
+
+React.render(<FluxCounterApp/>, document.getElementById('flux-counter'));
+
+// React.render(<Image/>, document.getElementById('image-container'));

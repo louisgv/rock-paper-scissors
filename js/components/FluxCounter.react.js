@@ -1,21 +1,20 @@
-var React = require('react');
-var FluxCounterActions = require('../actions/FluxCounterActions');
+import React from 'react';
+import FluxCounterActions from '../actions/FluxCounterActions';
 
-var FluxCounter = React.createClass({
+class FluxCounter extends React.Component {
 
-  countOne: function() {
+  countOne() {
     FluxCounterActions.countOne();
-  },
+  }
 
-  render: function() {
+  render() {
     return (
       <div className="flux-counter">
         <p>{this.props.count}</p>
         <button type="button" onClick={this.countOne}>test</button>
       </div>
     );
-  },
-
-});
+  }
+}
 
 module.exports = FluxCounter;
