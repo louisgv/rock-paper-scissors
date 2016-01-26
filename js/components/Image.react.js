@@ -2,12 +2,6 @@
 
 import React from 'react';
 
-class AppComponent extends React.Component {
-  constructor() {
-
-  }
-}
-
 // TODO: MAKE SHIT HAPPEN
 class AppComponent extends React.Component {
   render() {
