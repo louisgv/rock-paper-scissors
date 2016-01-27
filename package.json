@@ -24,7 +24,8 @@
   },
   "scripts": {
     "start": "watchify -o src/bundle.js -v -d . -t [ babelify --presets [ es2015 react ] ]",
-    "build": "uglifyjs src/bundle.js -mc > src/bundle.min.js"
+    "watch": "watchify -o src/bundle.js -v -d . -t [ babelify --presets [ es2015 react ] ]",
+    "build": "browserify -o src/bundle.js -v -d . -t [ babelify --presets [ es2015 react ] ] && uglifyjs src/bundle.js -mc > src/bundle.min.js"
   },
   "browserify": {
     "transform": [
