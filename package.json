@@ -2,7 +2,7 @@
   "name": "rock-paper-scissors",
   "version": "0.0.1",
   "description": "Rock Paper Scissors",
-  "main": "js/app.js",
+  "main": "src/app.js",
   "dependencies": {
     "flux": "^2.0.0",
     "radium": "^0.16.4",
@@ -17,13 +17,14 @@
     "browserify": "~6.2.0",
     "envify": "~3.0.0",
     "mcfly": "0.0.2",
+    "muicss": "^0.3.0",
     "react": "^0.14.0",
     "reactify": "^0.15",
     "watchify": "~2.1.0"
   },
   "scripts": {
-    "start": "watchify -o js/bundle.js -v -d . -t [ babelify --presets [ es2015 react ] ]",
-    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+    "start": "watchify -o src/bundle.js -v -d . -t [ babelify --presets [ es2015 react ] ]",
+    "build": "browserify . | uglifyjs -cm > src/bundle.min.js"
   },
   "browserify": {
     "transform": [
